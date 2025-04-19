@@ -9,6 +9,10 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -29,6 +33,18 @@ body {
   font-style: italic;
 }
 
+.account {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 button {
   border: none;
   border-radius: 8px;
@@ -45,4 +61,7 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0;
+  gap: 8px;
 }
